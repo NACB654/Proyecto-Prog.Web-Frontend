@@ -1,0 +1,43 @@
+.center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 165px;
+}
+
+.titulo {
+    color: #000;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin-block-end: 51px;
+}
+
+.texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.olvidar {
+    color: #6750A4;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    margin-block-start: 5px;
+    margin-inline-start: 159px;
+    text-decoration: none;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 46px;
+}

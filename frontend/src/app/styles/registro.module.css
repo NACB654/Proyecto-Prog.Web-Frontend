@@ -1,0 +1,49 @@
+.center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 69px;
+}
+
+.titulo {
+    color: #000;
+    text-align: center;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    margin-block-end: 30px;
+}
+
+.campos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 55px;
+    gap: 163px;
+}
+
+.nombreCampo {
+    color: #6750A4;
+    text-align: left;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;
+    margin-block-end: 0;
+}
+
+.subtitulo {
+    color: #000;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+.personales, .cuenta {
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}

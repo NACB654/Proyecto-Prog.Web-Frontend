@@ -1,0 +1,71 @@
+.header {
+    display: flex;
+    width: auto;
+    height: auto;
+    padding: 8px 4px;
+    align-items: center;
+    gap: 6px;
+    flex-shrink: 0;
+    background: var(--m-3-sys-light-surface-container, #F3EDF7);
+}
+
+.button {
+    border: 0;
+    margin: 10px;
+    background: var(--m-3-sys-light-surface-container, #F3EDF7);
+}
+
+.title {
+    flex: 1 0 0;
+    color: var(--m-3-sys-light-on-surface, #1D1B20);
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.sidebar {
+    display: flex;
+    background: #D9D9D9;
+    width: 146px;
+    height: 89%;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 24px;
+    flex-shrink: 0;
+    float: left;
+}
+
+.divOptions {
+    display: flex;
+    flex-direction: column;
+    margin-left: 25px;
+}
+
+.options {
+    padding: 12px;
+    background: #D9D9D9;
+    border: 0;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+    color: var(--m-3-sys-light-primary, #6750A4);
+    text-decoration: none;
+}
+
+.version {
+    color: #000;
+    text-align: center;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+}
+
+/* .mainDiv {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+} */

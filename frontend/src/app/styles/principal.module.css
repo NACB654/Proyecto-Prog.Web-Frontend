@@ -1,0 +1,35 @@
+.perfilName {
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    color: #000;
+    width: 233px;
+}
+
+.mainTitle {
+    margin-top: 22px;
+}
+
+.rect {
+    background: var(--m-3-sys-light-surface-container, #F3EDF7);
+    height: auto;
+    flex-shrink: 0;
+}
+
+.subtitle1 {
+    margin-inline-start: 26px;
+    padding-top: 12px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+}
+
+.horizontalCards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 26px;
+    gap: 14px;
+    padding-bottom: 90px;
+}
