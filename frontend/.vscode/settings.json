@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "undefined/subscriptions/979f622c-17d4-4ad1-8693-0ac44e27c9c0/resourceGroups/appsvc_linux_centralus_basic/providers/Microsoft.Web/sites/nacb-progweb-frontend",
+    "appService.deploySubpath": "."
+}
