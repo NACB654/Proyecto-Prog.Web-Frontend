@@ -73,7 +73,7 @@ export default function PerfilPage() {
         router.push("/principal")
     }
 
-    if (usuario.user === 'admin'){
+    if (usuario?.tipoUsuario === 'admin'){
         datos = [
             {
                 id: 0,
